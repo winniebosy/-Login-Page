@@ -10,6 +10,7 @@ h1{
     
     font-size: 15px;
     color: rgba(255,255,255);
+    text-align: center;
 }
 /*main container that holds the login form*/
 .container{

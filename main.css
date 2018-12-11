@@ -1,14 +1,17 @@
+/*body section styling*/
 body{
     background: rgba(0, 0, 0, 0.973);
     font-family: sans-serif;
     
 
 }
+/*styles the login page title*/
 h1{
     
     font-size: 15px;
+    color: rgba(255,255,255);
 }
-
+/*main container that holds the login form*/
 .container{
 background: rgba(255,255,255);
 width: 380px;
@@ -19,22 +22,22 @@ margin-right:auto;
 margin-top:60px;
 
 }
-h1{
-    text-align: center;
-    color: rgba(255,255,255);
-}
+/*styles the login's logo*/
 #logo{
     border-radius: 50%;
     height:100px;
     width:100px;
-    transform: translate(130%, -50%);
+    transform: translate(130%, -50%);/*this ensures that the logo is positioned 
+    in the mid top of the container.*/
 }
+/*Styles the username and password labels of the login page*/
 .col-25{
     margin-top:20px;
     margin-left: 20px;
     font-size: 14px;
     font-weight: bolder;
 }
+/*styles the input area of the username section*/
 input[type=text]{
 
     margin-left:18px;
@@ -43,6 +46,7 @@ input[type=text]{
     background: #EDE8E8;
     border: 1px solid #EDE8E8;
 }
+/*styles the password input area*/
 input[type=password]{
     margin-left:18px;
     padding: 12px 14px;
@@ -50,9 +54,9 @@ input[type=password]{
     background: #EDE8E8;
     border: 1px solid #EDE8E8;
 }
-.info{
-    
+
 }
+/*styles the checkbox section*/
 input[type=checkbox]{
     margin-top:20px;
     margin-left:20px;
@@ -60,6 +64,7 @@ input[type=checkbox]{
     border: 1px solid #EDE8E8;
     
 }
+/*styles the submit button*/
 input[type=submit]{
     margin-top:10px;
     margin-left:18px;
@@ -69,11 +74,13 @@ input[type=submit]{
     border: 1px solid rgba(97, 6, 100, 0.3);
     font-weight: bolder;
 }
+/*styles the links of the login form*/
 a{
     text-decoration: none;
     color: rgba(0, 0, 0, 0.973);
     margin-left: 20px;
 }
+/*styles the icon-arrow of the login form*/
 i{
     margin-left:1px;
 }

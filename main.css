@@ -3,8 +3,8 @@ body{
 
 }
 .container{
-    width: 375px;
-height: 416px;
+width: 380px;
+height: 435px;
 border: 1px solid;
 margin:auto;
 
@@ -22,5 +22,9 @@ input[type=text]{
 input[type=password]{
     margin-left:18px;
     padding: 12px 14px;
-    width:80%;
+    width:80%;  
+}
+input[type=checkbox]{
+    margin:10px;
+    font-weight: bolder;
 }
